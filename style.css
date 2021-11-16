@@ -42,6 +42,7 @@ font-weight: bold;
 border: none;
 border-radius: 15px;
 background: rgb(6, 235, 40);
+cursor: pointer;
 }
 .btn:hover{
     background: rgba(0, 255, 21, 0.678);
