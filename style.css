@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: url("5.jpg")no-repeat center fixed ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    background: rgba(197, 195, 195, 0.376);
+    padding: 100px 2px 105px 30px;
+    border: none;
+    border-radius: 20px;
+    border-top: 6px solid rgba(255, 255, 255, 0.411);
+    border-left: 6px solid rgba(226, 221, 221, 0.459);
+    border-bottom: 6px solid rgba(228, 219, 219, 0.52);
+    border-right: 6px solid rgba(228, 221, 221, 0.369);
+    backdrop-filter: blur(125px);
+    box-shadow: 20px 20px 50px rgba(34, 0, 0, 0.513);
+    backdrop-filter: 23px;
+}
+.container .login .image img{
+    width: 100px;
+    position: relative;
+    bottom: 60px;
+    left: 57px;
+}
+.btn
+{
+    padding: 12px 108px 12px 105px;
+position: relative;
+right: 14px;
+bottom: -87px;
+font-size: 15px;
+font-weight: bold;
+border: none;
+border-radius: 15px;
+background: rgb(6, 235, 40);
+}
+.btn:hover{
+    background: rgba(0, 255, 21, 0.678);
+}
+.first{
+    position: relative;
+bottom: 1px;
+left: 2px;
+}
+.first .email{
+    font-size: 16px;
+    background: yellow;
+    /* color:; */
+    border: none;
+    width: 202px;
+    height: 22px;
+}
+.second{
+    position: relative;
+bottom: -25px;
+left: 2px;
+}
+.second .pass{
+    font-size: 16px;
+    background: yellow;
+    border: none;
+    width: 202px;
+    height: 22px;
+}
+.sign{
+    position: relative;
+    top: 109px;
+    font-size: 17px;
+  
+}
+.forget{
+    position: relative;
+    top: 88px;
+    font-size: 17px;
+    left: 114px;
+}
